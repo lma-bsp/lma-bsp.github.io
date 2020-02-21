@@ -166,7 +166,7 @@ function introduction() {
 
 function main_page() {
     $('body').append('<div style=' + name_text_style
-        + ' id="name_text"><h2>Alexis Reyes</h2><br><a class="links" href="https://docs.google.com/document/d/19U_yaxM1rOc779b8xfrlK5TSoGfL4BVFyZ9WugkFzl0/edit?usp=sharing">' + 'Current Resume' + '</a><br><a class="links" href="http://www.brewy.org">' + 'Current Project' + '</a></div>')
+        + ' id="name_text"><h2>Alexis Reyes</h2><br><a class="links" href="https://docs.google.com/document/d/19U_yaxM1rOc779b8xfrlK5TSoGfL4BVFyZ9WugkFzl0/edit?usp=sharing">' + 'Current Resume' + '</a><br><a class="links" href="https://brewy.org/">' + 'Current Project' + '</a></div>')
     select('#name_text').position(width / 2.5, height / 4)
 }
 
